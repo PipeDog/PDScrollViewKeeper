@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD272EDD23ED6C02000B1878 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD272EDC23ED6C02000B1878 /* AppDelegate.m */; };
+		DD272EE023ED6C02000B1878 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD272EDF23ED6C02000B1878 /* SceneDelegate.m */; };
+		DD272EE323ED6C02000B1878 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD272EE223ED6C02000B1878 /* ViewController.m */; };
+		DD272EE623ED6C02000B1878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD272EE423ED6C02000B1878 /* Main.storyboard */; };
+		DD272EE823ED6C06000B1878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD272EE723ED6C06000B1878 /* Assets.xcassets */; };
+		DD272EEB23ED6C06000B1878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD272EE923ED6C06000B1878 /* LaunchScreen.storyboard */; };
+		DD272EEE23ED6C06000B1878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD272EED23ED6C06000B1878 /* main.m */; };
+		DD272EF823ED6C06000B1878 /* PDScrollViewKeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD272EF723ED6C06000B1878 /* PDScrollViewKeeperTests.m */; };
+		DD272F0323ED6C06000B1878 /* PDScrollViewKeeperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD272F0223ED6C06000B1878 /* PDScrollViewKeeperUITests.m */; };
+		DD272F1323ED6C20000B1878 /* PDKeepTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD272F1223ED6C20000B1878 /* PDKeepTableView.m */; };
+		DD272F1623ED6C2D000B1878 /* PDKeepScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD272F1523ED6C2D000B1878 /* PDKeepScrollView.m */; };
+		DD272F1923ED6C3F000B1878 /* PDKeepCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD272F1823ED6C3F000B1878 /* PDKeepCollectionView.m */; };
+		DD272F1C23ED6C4C000B1878 /* PDScrollViewKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD272F1B23ED6C4C000B1878 /* PDScrollViewKeeper.m */; };
+		DD272F1F23ED6F09000B1878 /* PDPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD272F1E23ED6F09000B1878 /* PDPageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD272EF423ED6C06000B1878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD272ED023ED6C02000B1878 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD272ED723ED6C02000B1878;
+			remoteInfo = PDScrollViewKeeper;
+		};
+		DD272EFF23ED6C06000B1878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD272ED023ED6C02000B1878 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD272ED723ED6C02000B1878;
+			remoteInfo = PDScrollViewKeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD272ED823ED6C02000B1878 /* PDScrollViewKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDScrollViewKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD272EDB23ED6C02000B1878 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD272EDC23ED6C02000B1878 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD272EDE23ED6C02000B1878 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DD272EDF23ED6C02000B1878 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DD272EE123ED6C02000B1878 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD272EE223ED6C02000B1878 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD272EE523ED6C02000B1878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD272EE723ED6C06000B1878 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD272EEA23ED6C06000B1878 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD272EEC23ED6C06000B1878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD272EED23ED6C06000B1878 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD272EF323ED6C06000B1878 /* PDScrollViewKeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDScrollViewKeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD272EF723ED6C06000B1878 /* PDScrollViewKeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDScrollViewKeeperTests.m; sourceTree = "<group>"; };
+		DD272EF923ED6C06000B1878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD272EFE23ED6C06000B1878 /* PDScrollViewKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDScrollViewKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD272F0223ED6C06000B1878 /* PDScrollViewKeeperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDScrollViewKeeperUITests.m; sourceTree = "<group>"; };
+		DD272F0423ED6C06000B1878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD272F1123ED6C20000B1878 /* PDKeepTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKeepTableView.h; sourceTree = "<group>"; };
+		DD272F1223ED6C20000B1878 /* PDKeepTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKeepTableView.m; sourceTree = "<group>"; };
+		DD272F1423ED6C2D000B1878 /* PDKeepScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKeepScrollView.h; sourceTree = "<group>"; };
+		DD272F1523ED6C2D000B1878 /* PDKeepScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKeepScrollView.m; sourceTree = "<group>"; };
+		DD272F1723ED6C3F000B1878 /* PDKeepCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDKeepCollectionView.h; sourceTree = "<group>"; };
+		DD272F1823ED6C3F000B1878 /* PDKeepCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDKeepCollectionView.m; sourceTree = "<group>"; };
+		DD272F1A23ED6C4C000B1878 /* PDScrollViewKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDScrollViewKeeper.h; sourceTree = "<group>"; };
+		DD272F1B23ED6C4C000B1878 /* PDScrollViewKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDScrollViewKeeper.m; sourceTree = "<group>"; };
+		DD272F1D23ED6F09000B1878 /* PDPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDPageViewController.h; sourceTree = "<group>"; };
+		DD272F1E23ED6F09000B1878 /* PDPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDPageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD272ED523ED6C02000B1878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD272EF023ED6C06000B1878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD272EFB23ED6C06000B1878 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD272ECF23ED6C02000B1878 = {
+			isa = PBXGroup;
+			children = (
+				DD272EDA23ED6C02000B1878 /* PDScrollViewKeeper */,
+				DD272EF623ED6C06000B1878 /* PDScrollViewKeeperTests */,
+				DD272F0123ED6C06000B1878 /* PDScrollViewKeeperUITests */,
+				DD272ED923ED6C02000B1878 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD272ED923ED6C02000B1878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD272ED823ED6C02000B1878 /* PDScrollViewKeeper.app */,
+				DD272EF323ED6C06000B1878 /* PDScrollViewKeeperTests.xctest */,
+				DD272EFE23ED6C06000B1878 /* PDScrollViewKeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD272EDA23ED6C02000B1878 /* PDScrollViewKeeper */ = {
+			isa = PBXGroup;
+			children = (
+				DD272F1023ED6C0C000B1878 /* Source */,
+				DD272EDB23ED6C02000B1878 /* AppDelegate.h */,
+				DD272EDC23ED6C02000B1878 /* AppDelegate.m */,
+				DD272EDE23ED6C02000B1878 /* SceneDelegate.h */,
+				DD272EDF23ED6C02000B1878 /* SceneDelegate.m */,
+				DD272EE123ED6C02000B1878 /* ViewController.h */,
+				DD272EE223ED6C02000B1878 /* ViewController.m */,
+				DD272F1D23ED6F09000B1878 /* PDPageViewController.h */,
+				DD272F1E23ED6F09000B1878 /* PDPageViewController.m */,
+				DD272EE423ED6C02000B1878 /* Main.storyboard */,
+				DD272EE723ED6C06000B1878 /* Assets.xcassets */,
+				DD272EE923ED6C06000B1878 /* LaunchScreen.storyboard */,
+				DD272EEC23ED6C06000B1878 /* Info.plist */,
+				DD272EED23ED6C06000B1878 /* main.m */,
+			);
+			path = PDScrollViewKeeper;
+			sourceTree = "<group>";
+		};
+		DD272EF623ED6C06000B1878 /* PDScrollViewKeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD272EF723ED6C06000B1878 /* PDScrollViewKeeperTests.m */,
+				DD272EF923ED6C06000B1878 /* Info.plist */,
+			);
+			path = PDScrollViewKeeperTests;
+			sourceTree = "<group>";
+		};
+		DD272F0123ED6C06000B1878 /* PDScrollViewKeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD272F0223ED6C06000B1878 /* PDScrollViewKeeperUITests.m */,
+				DD272F0423ED6C06000B1878 /* Info.plist */,
+			);
+			path = PDScrollViewKeeperUITests;
+			sourceTree = "<group>";
+		};
+		DD272F1023ED6C0C000B1878 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DD272F1423ED6C2D000B1878 /* PDKeepScrollView.h */,
+				DD272F1523ED6C2D000B1878 /* PDKeepScrollView.m */,
+				DD272F1123ED6C20000B1878 /* PDKeepTableView.h */,
+				DD272F1223ED6C20000B1878 /* PDKeepTableView.m */,
+				DD272F1723ED6C3F000B1878 /* PDKeepCollectionView.h */,
+				DD272F1823ED6C3F000B1878 /* PDKeepCollectionView.m */,
+				DD272F1A23ED6C4C000B1878 /* PDScrollViewKeeper.h */,
+				DD272F1B23ED6C4C000B1878 /* PDScrollViewKeeper.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD272ED723ED6C02000B1878 /* PDScrollViewKeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD272F0723ED6C07000B1878 /* Build configuration list for PBXNativeTarget "PDScrollViewKeeper" */;
+			buildPhases = (
+				DD272ED423ED6C02000B1878 /* Sources */,
+				DD272ED523ED6C02000B1878 /* Frameworks */,
+				DD272ED623ED6C02000B1878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDScrollViewKeeper;
+			productName = PDScrollViewKeeper;
+			productReference = DD272ED823ED6C02000B1878 /* PDScrollViewKeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD272EF223ED6C06000B1878 /* PDScrollViewKeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD272F0A23ED6C07000B1878 /* Build configuration list for PBXNativeTarget "PDScrollViewKeeperTests" */;
+			buildPhases = (
+				DD272EEF23ED6C06000B1878 /* Sources */,
+				DD272EF023ED6C06000B1878 /* Frameworks */,
+				DD272EF123ED6C06000B1878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD272EF523ED6C06000B1878 /* PBXTargetDependency */,
+			);
+			name = PDScrollViewKeeperTests;
+			productName = PDScrollViewKeeperTests;
+			productReference = DD272EF323ED6C06000B1878 /* PDScrollViewKeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD272EFD23ED6C06000B1878 /* PDScrollViewKeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD272F0D23ED6C07000B1878 /* Build configuration list for PBXNativeTarget "PDScrollViewKeeperUITests" */;
+			buildPhases = (
+				DD272EFA23ED6C06000B1878 /* Sources */,
+				DD272EFB23ED6C06000B1878 /* Frameworks */,
+				DD272EFC23ED6C06000B1878 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD272F0023ED6C06000B1878 /* PBXTargetDependency */,
+			);
+			name = PDScrollViewKeeperUITests;
+			productName = PDScrollViewKeeperUITests;
+			productReference = DD272EFE23ED6C06000B1878 /* PDScrollViewKeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD272ED023ED6C02000B1878 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = liang;
+				TargetAttributes = {
+					DD272ED723ED6C02000B1878 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					DD272EF223ED6C06000B1878 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = DD272ED723ED6C02000B1878;
+					};
+					DD272EFD23ED6C06000B1878 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = DD272ED723ED6C02000B1878;
+					};
+				};
+			};
+			buildConfigurationList = DD272ED323ED6C02000B1878 /* Build configuration list for PBXProject "PDScrollViewKeeper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD272ECF23ED6C02000B1878;
+			productRefGroup = DD272ED923ED6C02000B1878 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD272ED723ED6C02000B1878 /* PDScrollViewKeeper */,
+				DD272EF223ED6C06000B1878 /* PDScrollViewKeeperTests */,
+				DD272EFD23ED6C06000B1878 /* PDScrollViewKeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD272ED623ED6C02000B1878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD272EEB23ED6C06000B1878 /* LaunchScreen.storyboard in Resources */,
+				DD272EE823ED6C06000B1878 /* Assets.xcassets in Resources */,
+				DD272EE623ED6C02000B1878 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD272EF123ED6C06000B1878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD272EFC23ED6C06000B1878 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD272ED423ED6C02000B1878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD272EE323ED6C02000B1878 /* ViewController.m in Sources */,
+				DD272F1C23ED6C4C000B1878 /* PDScrollViewKeeper.m in Sources */,
+				DD272F1F23ED6F09000B1878 /* PDPageViewController.m in Sources */,
+				DD272EDD23ED6C02000B1878 /* AppDelegate.m in Sources */,
+				DD272F1923ED6C3F000B1878 /* PDKeepCollectionView.m in Sources */,
+				DD272F1623ED6C2D000B1878 /* PDKeepScrollView.m in Sources */,
+				DD272EEE23ED6C06000B1878 /* main.m in Sources */,
+				DD272F1323ED6C20000B1878 /* PDKeepTableView.m in Sources */,
+				DD272EE023ED6C02000B1878 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD272EEF23ED6C06000B1878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD272EF823ED6C06000B1878 /* PDScrollViewKeeperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD272EFA23ED6C06000B1878 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD272F0323ED6C06000B1878 /* PDScrollViewKeeperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD272EF523ED6C06000B1878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD272ED723ED6C02000B1878 /* PDScrollViewKeeper */;
+			targetProxy = DD272EF423ED6C06000B1878 /* PBXContainerItemProxy */;
+		};
+		DD272F0023ED6C06000B1878 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD272ED723ED6C02000B1878 /* PDScrollViewKeeper */;
+			targetProxy = DD272EFF23ED6C06000B1878 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD272EE423ED6C02000B1878 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD272EE523ED6C02000B1878 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD272EE923ED6C06000B1878 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD272EEA23ED6C06000B1878 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD272F0523ED6C07000B1878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD272F0623ED6C07000B1878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD272F0823ED6C07000B1878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDScrollViewKeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liang.PDScrollViewKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD272F0923ED6C07000B1878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDScrollViewKeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liang.PDScrollViewKeeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD272F0B23ED6C07000B1878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDScrollViewKeeperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liang.PDScrollViewKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDScrollViewKeeper.app/PDScrollViewKeeper";
+			};
+			name = Debug;
+		};
+		DD272F0C23ED6C07000B1878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDScrollViewKeeperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liang.PDScrollViewKeeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDScrollViewKeeper.app/PDScrollViewKeeper";
+			};
+			name = Release;
+		};
+		DD272F0E23ED6C07000B1878 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDScrollViewKeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liang.PDScrollViewKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDScrollViewKeeper;
+			};
+			name = Debug;
+		};
+		DD272F0F23ED6C07000B1878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDScrollViewKeeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liang.PDScrollViewKeeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDScrollViewKeeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD272ED323ED6C02000B1878 /* Build configuration list for PBXProject "PDScrollViewKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD272F0523ED6C07000B1878 /* Debug */,
+				DD272F0623ED6C07000B1878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD272F0723ED6C07000B1878 /* Build configuration list for PBXNativeTarget "PDScrollViewKeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD272F0823ED6C07000B1878 /* Debug */,
+				DD272F0923ED6C07000B1878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD272F0A23ED6C07000B1878 /* Build configuration list for PBXNativeTarget "PDScrollViewKeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD272F0B23ED6C07000B1878 /* Debug */,
+				DD272F0C23ED6C07000B1878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD272F0D23ED6C07000B1878 /* Build configuration list for PBXNativeTarget "PDScrollViewKeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD272F0E23ED6C07000B1878 /* Debug */,
+				DD272F0F23ED6C07000B1878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD272ED023ED6C02000B1878 /* Project object */;
+}
