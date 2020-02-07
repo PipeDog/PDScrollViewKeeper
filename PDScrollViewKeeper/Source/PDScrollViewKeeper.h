@@ -35,6 +35,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)superScrollViewDidScroll:(UIScrollView *)scrollView;
 - (void)childScrollViewDidScroll:(UIScrollView *)scrollView;
 
+- (void)takeOverScrollIndicator;
+
 @end
 
 NS_ASSUME_NONNULL_END

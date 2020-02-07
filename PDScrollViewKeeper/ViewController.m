@@ -115,6 +115,7 @@
     if (!keeper.delegate) {
         [keeper attachSuperView:self.tableView];
         keeper.delegate = self;
+        [keeper takeOverScrollIndicator];
     }
     return [PDScrollViewKeeper keeperWithIdentifier:@"testIdentifier"];
 }

@@ -8,7 +8,9 @@
 
 #import "PDScrollViewKeeper.h"
 
-@interface PDScrollViewKeeper ()
+@interface PDScrollViewKeeper () {
+    BOOL _takeOverScrollIndicator;
+}
 
 @property (class, strong, readonly) NSMutableDictionary<NSString *, PDScrollViewKeeper *> *keepers;
 @property (nonatomic, strong) UIScrollView *superScrollView;
@@ -80,6 +82,10 @@
             superScrollView.contentOffset = CGPointMake(0.f, threshold);
         }
     }
+    
+    if (_takeOverScrollIndicator) {
+        superScrollView.showsVerticalScrollIndicator = self.superScrollViewScrollEnable ? YES : NO;
+    }
 }
 
 - (void)childScrollViewDidScroll:(UIScrollView *)scrollView {
@@ -96,6 +102,14 @@
         self.superScrollViewScrollEnable = YES;
         childScrollView.contentOffset = CGPointZero;
     }
+    
+    if (_takeOverScrollIndicator) {
+        childScrollView.showsVerticalScrollIndicator = self.childScrollViewScrollEnable ? YES : NO;
+    }
+}
+
+- (void)takeOverScrollIndicator {
+    _takeOverScrollIndicator = YES;
 }
 
 #pragma mark - Setter Methods
