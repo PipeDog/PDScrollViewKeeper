@@ -51,11 +51,13 @@
     self = [super init];
     if (self) {
         _identifier = [identifier copy];
+        _superScrollViewScrollEnable = YES;
+        _childScrollViewScrollEnable = NO;
     }
     return self;
 }
 
-- (void)attachSuperView:(UIScrollView *)scrollView {
+- (void)attachSuperScrollView:(UIScrollView *)scrollView {
     self.superScrollView = scrollView;
 }
 

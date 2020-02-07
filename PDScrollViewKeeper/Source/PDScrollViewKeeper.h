@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)setSelectedIndex:(NSInteger)selectedIndex;
 
-- (void)attachSuperView:(UIScrollView *)scrollView;
+- (void)attachSuperScrollView:(UIScrollView *)scrollView;
 - (void)attachChildScrollView:(UIScrollView *)scrollView atIndex:(NSInteger)index;
 
 - (void)superScrollViewDidScroll:(UIScrollView *)scrollView;
