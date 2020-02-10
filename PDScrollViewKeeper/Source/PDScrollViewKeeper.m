@@ -13,7 +13,7 @@
 }
 
 @property (class, strong, readonly) NSMutableDictionary<NSString *, PDScrollViewKeeper *> *keepers;
-@property (nonatomic, strong) UIScrollView *superScrollView;
+@property (nonatomic, weak) UIScrollView *superScrollView;
 @property (nonatomic, strong) NSMapTable<NSNumber *, UIScrollView *> *childScrollViews;
 @property (nonatomic, assign) BOOL superScrollViewScrollEnable;
 @property (nonatomic, assign) BOOL childScrollViewScrollEnable;
