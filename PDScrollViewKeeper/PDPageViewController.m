@@ -37,6 +37,7 @@
         // Create button
         CGRect buttonRect = CGRectMake(i * 80.f, 0.f, 80.f, 40.f);
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        button.backgroundColor = [UIColor systemGroupedBackgroundColor];
         button.frame = buttonRect;
         button.tag = i;
         [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
@@ -50,6 +51,7 @@
                                       [UIScreen mainScreen].bounds.size.width,
                                       [self.delegate containerViewHeight] - 40.f);
         UITableView *tableView = [[UITableView alloc] initWithFrame:tableRect style:UITableViewStylePlain];
+        tableView.contentInset = UIEdgeInsetsMake(30.f, 0.f, 0.f, 0.f);
         tableView.delegate = self;
         tableView.dataSource = self;
         

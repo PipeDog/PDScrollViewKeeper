@@ -96,13 +96,13 @@
     if (!superScrollView || !childScrollView) { return; }
 
     if (!self.childScrollViewScrollEnable) {
-        childScrollView.contentOffset = CGPointZero;
+        childScrollView.contentOffset = CGPointMake(0.f, -childScrollView.contentInset.top);
     }
     
     if (childScrollView.contentOffset.y <= 0.f) {
         self.childScrollViewScrollEnable = NO;
         self.superScrollViewScrollEnable = YES;
-        childScrollView.contentOffset = CGPointZero;
+        childScrollView.contentOffset = CGPointMake(0.f, -childScrollView.contentInset.top);
     }
     
     if (_takeOverScrollIndicator) {
